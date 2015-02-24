@@ -1,0 +1,22 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.jerry</groupId>
+	<artifactId>com.jerry</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<name>JerryWebFramework</name>
+
+	<url>http://jerry.wang</url>
+
+	<!-- 开发人员信息 -->
+	<developers>
+		<developer>
+			<id>Jerry Wang</id>
+			<email>jerry002@126.com</email>
+			<name>Jerry Wang</name>
+			<organization>developer</organization>
+		</developer>
+	</developers>
+	
+	
+</project>
