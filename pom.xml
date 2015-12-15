@@ -28,7 +28,7 @@
 			<version>1.2.8</version>
 			<type>jar</type>
 		</dependency>
-		
+
 		<dependency>
 			<groupId>commons-collections</groupId>
 			<artifactId>commons-collections</artifactId>
@@ -40,22 +40,32 @@
 			<artifactId>servlet-api</artifactId>
 			<version>2.5</version>
 		</dependency>
-		
+
 		<dependency>
 			<groupId>net.sf.json-lib</groupId>
 			<artifactId>json-lib</artifactId>
 			<version>2.3</version>
 			<classifier>jdk15</classifier>
 		</dependency>
-		
+
 		<!-- cglib 动态代理 -->
 		<dependency>
 			<groupId>cglib</groupId>
 			<artifactId>cglib-nodep</artifactId>
 			<version>3.1</version>
 		</dependency>
-		
-		
+
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>org.springframework.web.servlet</artifactId>
+			<version>3.2.5.RELEASE</version>
+		</dependency>
+
+		<dependency>
+			<groupId>com.bj58.wf</groupId>
+			<artifactId>com.bj58.wf.mvc</artifactId>
+			<version>1.0.6-release</version>
+		</dependency>
 
 	</dependencies>
 </project>
