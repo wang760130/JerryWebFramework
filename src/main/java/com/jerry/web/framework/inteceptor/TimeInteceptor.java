@@ -26,7 +26,7 @@ public class TimeInteceptor implements HandlerInterceptor{
 	public void postHandle(HttpServletRequest request, HttpServletResponse response,
 			Object object, ModelAndView model) throws Exception {
 		
-		long start = (long) request.getAttribute("start");
+		long start = Long.valueOf((String)request.getAttribute("start"));
 		long end = System.currentTimeMillis();
 		
 		long execute = end - start;

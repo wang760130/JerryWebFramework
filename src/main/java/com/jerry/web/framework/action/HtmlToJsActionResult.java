@@ -1,15 +1,6 @@
 package com.jerry.web.framework.action;
 
-import java.io.StringWriter;
-import javax.servlet.http.HttpServletResponse;
-import org.apache.velocity.Template;
-import org.apache.velocity.VelocityContext;
-import org.apache.velocity.app.Velocity;
-import org.apache.velocity.context.Context;
-import org.apache.velocity.io.VelocityWriter;
 import org.apache.velocity.runtime.RuntimeInstance;
-import com.bj58.wf.mvc.BeatContext;
-import com.jerry.web.framework.utils.HtmlUtils;
 
 public class HtmlToJsActionResult {
 	private static final String prefix = "views";
@@ -26,7 +17,7 @@ public class HtmlToJsActionResult {
 		return this.viewName;
 	}
 
-	public void render(BeatContext beat) throws Exception {
+	/*public void render(BeatContext beat) throws Exception {
 		String path = HtmlToJsActionResult.prefix + (this.viewName.startsWith("/") ? "" : "/") + this.viewName + HtmlToJsActionResult.suffix;
 
 		Template template = Velocity.getTemplate(path);
@@ -62,6 +53,6 @@ public class HtmlToJsActionResult {
 			body = HtmlUtils.htmlToJs(sw.toString());
 		}
 		response.getWriter().write(body);
-	}
+	}*/
 
 }
